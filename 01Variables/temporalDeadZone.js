@@ -19,3 +19,13 @@ console.log(x); // ✅ undefined
 var x = 10;
 
 console.log(x); // ✅ 10
+
+// BCOZ of hosting var behave like that 
+
+/* 🧨 Hoisting
+JavaScript prepares memory before running code.
+It moves all declarations to the top — this is called hoisting.
+But:
+var is hoisted and set to  "undefined"
+let and const are hoisted but not initialized — so accessing them early gives "ReferenceError" */
+
