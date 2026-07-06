@@ -9,7 +9,7 @@ Reference types – stored as memory references.
 
 🔹 Primitive Data Types
 1. String → Text
-"hello"  ,  'Sheryians'
+"hello"  ,  'Sheryians'.`BackTick`
 2. Number → Any numeric value
 3 ,-99,3.14
 3. Boolean → True or false
