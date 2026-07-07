@@ -6,6 +6,8 @@ IIFE (Immediately Invoked Function Expression)
 - Runs only once.
 */
 
+const { useDebugValue } = require("react");
+
 
 // Normal IIFE
 (function () {
@@ -23,3 +25,9 @@ IIFE (Immediately Invoked Function Expression)
 (() => {
     console.log("Arrow IIFE");
 })();
+
+
+/* 
+IIFE REAL WORLD 
+
+IIFEs are mainly used for one-time initialization, creating private scope, and preventing global namespace pollution. Today, ES Modules have replaced most of these use cases. */
