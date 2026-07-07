@@ -16,3 +16,13 @@ console.log(c); // ❌ ReferenceError
 .Function Scope → Code inside a function
 .let and const follow block scope.
 .var ignores block scope — which leads to bugs. */
+
+
+
+
+/* 
+console
+console is an object provided by JavaScript.
+It represents the console, where developers can see messages, errors, and debugging information.
+log
+log means display/record a message. */
