@@ -18,7 +18,7 @@ true , false
 let x; →  x is undefined
 5. Null → Intentional empty value
 let x = null;
-6. Symbol → Unique identifier (rarely used)
+6. Symbol → Unique identifier (rarely used)        Imp read about it
 7. BigInt → Very large integers
 123456789012345678901234567890n
 
