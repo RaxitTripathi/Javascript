@@ -16,6 +16,8 @@ numbers.forEach(function(num) {      //here function is callback function.
 });
 
 
+//Btw notice that forEach backet start and end point 
+
 // Output:
 // 10
 // 20
