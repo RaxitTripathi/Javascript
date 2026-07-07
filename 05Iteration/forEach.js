@@ -24,3 +24,11 @@ numbers.forEach(function(num) {      //here function is callback function.
 // 30
 // 40
 // 50
+
+
+
+/* 
+⚠ Common Confusions
+for-inbis for objects, not arrays (may cause issues with unexpected keys)
+forEach can't use  break or  and  continue
+do-while work best when number of iterations is unknown */
