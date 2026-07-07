@@ -6,12 +6,13 @@ let a = 10, b = 3;
 console.log(a + b);  // Addition
 console.log(a - b);  // Subtraction
 console.log(a * b);  // Multiplication
-console.log(a / b);  // Division
+console.log(a / b);  // Division     // gives 3.3333333333333335
 console.log(a % b);  // Modulus
 console.log(a ** b); // Exponentiation
 a++;                 // Increment
 b--;                 // Decrement
 
+let r = Math.floor(10 / 3); //→ 3
 
 // ==========================
 // 2. Assignment Operators
