@@ -11,3 +11,5 @@ pincode: 110001
 
 let user2=JSON.parse(JSON.stringify(user));    // See how it work first JSON.stringify convert object user to string then JSON.parse reconvert this string to object 
 console.log(user2);
+
+// Note: JSON-based copy works only for plain data (no functions, undefined, etc.)
